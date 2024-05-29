@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Exercise Frontend Mentor, blogr">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <title>Frontend Mentor | [Blogr]</title>
+    </head>
+    <body>
+
+      <header class="header-container">
+
+        <nav class="menu">
+          <img class="image-logo" src="./images/logo.svg" alt="logo brand">
+          <button class="button-menu" id="display-menu"><svg width="32" height="18" xmlns="http://www.w3.org/2000/svg"><g fill="#FFF" fill-rule="evenodd"><path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z"/></g></svg></button>
+        
+          <div class="listing hidden" id="menu-mobile">
+
+            <div class="display-desktop-listing">
+
+              <section class="section-listing">
+                <h3 class="title-menu" id="reachAfter1">Product</h3>
+                <ul class="list list-menu display">
+                  <li class="li-menu">Overview</li>
+                  <li class="li-menu">Pricing</li>
+                  <li class="li-menu">Marketplace</li>
+                  <li class="li-menu">Features</li>
+                  <li class="li-menu">Integrations</li>
+                </ul>
+              </section>
+
+              <section class="section-listing">
+                <h3 class="title-menu" id="reachAfter2">Company</h3>
+                <ul class="list list-menu display">
+                  <li class="li-menu">About</li>
+                  <li class="li-menu">Team</li>
+                  <li class="li-menu">Blog</li>
+                  <li class="li-menu">Careers</li>     
+                </ul> 
+              </section>
+
+              <section class="section-listing">
+                <h3 class="title-menu"  id="reachAfter3">Connect</h3>
+                <ul class="list list-menu display">
+                  <li class="li-menu">Contact</li>
+                  <li class="li-menu">Newsletter</li>
+                  <li class="li-menu">LinkedIn</li>    
+                </ul>
+              </section>
+
+            </div>
+
+            <div class="display-desktop-button">
+              <button class="button listing-button">Login</button>
+              <button class="button listing-button">Sign Up</button>
+            </div>
+            
+          </div>
+     
+        </nav>
+
+        <div class="display-text">
+
+          <h1 class="title header-title">A modern publishing platform</h1>
+          <p class="header-text">Grow your audience and build your online brand</p>
+
+          <div class="container-button">
+            <button class="button header-button">Start for Free</button>
+            <button class="button header-button">Learn More</button>  
+          </div>
+
+        </div>
+
+      </header>
+
+
+      <main class="container">
+
+        <article class="presentation">
+
+          <h2 class="title presentation-title">Designed for the future</h2>
+          <picture class="presentation-image">
+            <source srcset="./images/illustration-editor-desktop.svg" media="(min-width: 70rem)">
+            <img src="./images/illustration-editor-mobile.svg" alt="">
+          </picture>
+
+          <section class="section-presentation">
+            <h2 class="title section-title">Introducing an extensible editor</h2>
+            <p class="section-text">Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+          </section>
+
+          <section class="section-presentation">
+            <h2 class="title section-title">Robust content management</h2>
+            <p class="section-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </section>
+
+        </article>
+
+        <section class="infrastructure">
+          <img class="infrastructure-image" src="./images/illustration-phones.svg" alt="">
+          <div class="display-text">
+            <h2 class="title title-infrastructure">State of the Art Infrastructure</h2>
+            <p class="text-infrastructure">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+              This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p> 
+          </div>
+        </section>
+
+
+        <div class="explanation">
+
+          <picture class="image-explanation">
+            <source srcset="./images/illustration-laptop-desktop.svg"  media="(min-width: 70rem)">
+            <img src="./images/illustration-laptop-mobile.svg" alt="laptop">
+          </picture>
+
+          <section class="section-explanation">
+            <h2 class="title section-title">Free, open, simple</h2>
+            <p class="section-text">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+          </section>
+
+          <section class="section-explanation">
+            <h2 class="title section-title">Powerful tooling</h2>
+            <p class="section-text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.</p>
+          </section>
+
+        </div>
+
+      </main>
+
+
+      <footer class="bottom">
+
+        <img class="image-footer" src="./images/logo.svg" alt="logo brand">
+
+        <section class="section-footer">
+          <h3 class="title-list">Product</h3>
+          <ul class="list list-footer">
+            <li class="li-footer">Overview</li>
+            <li class="li-footer">Pricing</li>
+            <li class="li-footer">Marketplace</li>
+            <li class="li-footer">Features</li>
+            <li class="li-footer">Integrations</li>
+          </ul>
+        </section>
+
+        <section class="section-footer">
+          <h3 class="title-list">Company</h3>
+          <ul class="list list-footer">
+            <li class="li-footer">About</li>
+            <li class="li-footer">Team</li>
+            <li class="li-footer">Blog</li>
+            <li class="li-footer">Careers</li>
+          </ul>          
+        </section>
+
+        <section class="section-footer">
+          <h3 class="title-list">Connect</h3>
+          <ul class="list list-footer">
+            <li class="li-footer">Contact</li>
+            <li class="li-footer">Newsletter</li>
+            <li class="li-footer">LinkedIn</li>
+          </ul>          
+        </section>
+
+      </footer>
+
+
+    <script  src="./script.js"></script>
+
+    </body>
+
+</html>
